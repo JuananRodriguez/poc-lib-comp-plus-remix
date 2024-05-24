@@ -1,0 +1,69 @@
+Arguments: 
+  /Users/N147633/.nvm/versions/node/v20.8.1/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /var/folders/1p/zr_j350s32744b_4mg5vf5lm0000gp/T/yarn--1716543370648-0.31306998226516947:/Users/N147633/.config/yarn/global/node_modules/.bin:/Users/N147633/.config/yarn/link/node_modules/.bin:/Users/N147633/.nvm/versions/node/v20.8.1/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/N147633/.nvm/versions/node/v20.8.1/lib/node_modules/npm/bin/node-gyp-bin:/Users/N147633/.nvm/versions/node/v20.8.1/bin/node_modules/npm/bin/node-gyp-bin:/Users/N147633/.nvm/versions/node/v20.8.1/bin:/Users/N147633/.console-ninja/.bin:/Users/N147633/.nvm/versions/node/v16.20.0/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/laps:/opt/homebrew/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/N147633/.console-ninja/.bin:/Users/N147633/.nvm/versions/node/v16.20.0/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.8.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/Users/N147633/Desarrollo/poc-lib-comp-plus-remix/libs/component-lib/node_modules/react-scripts/node_modules/semver'
+
+npm manifest: 
+  {
+    "name": "component-lib-example",
+    "homepage": ".",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
+      "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
+      "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
+      "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    },
+    "dependencies": {
+      "@testing-library/jest-dom": "link:../node_modules/@testing-library/jest-dom",
+      "@testing-library/react": "link:../node_modules/@testing-library/react",
+      "@testing-library/user-event": "link:../node_modules/@testing-library/user-event",
+      "@types/jest": "link:../node_modules/@types/jest",
+      "@types/node": "link:../node_modules/@types/node",
+      "@types/react": "link:../node_modules/@types/react",
+      "@types/react-dom": "link:../node_modules/@types/react-dom",
+      "react": "link:../node_modules/react",
+      "react-dom": "link:../node_modules/react-dom",
+      "react-scripts": "link:../node_modules/react-scripts",
+      "typescript": "link:../node_modules/typescript",
+      "component-lib": "link:.."
+    },
+    "devDependencies": {
+      "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

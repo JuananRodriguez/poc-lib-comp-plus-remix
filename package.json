@@ -1,0 +1,16 @@
+{
+  "name": "poc-monorepo",
+  "private": "true",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JuananRodriguez/poc-lib-comp-plus-remix.git",
+  "author": "Juanan Rodríguez <juanan.rodriguez@gruposantander.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn workspace component-lib start & yarn workspace app_one start & yarn workspace app_two start"
+  },
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ]
+}
